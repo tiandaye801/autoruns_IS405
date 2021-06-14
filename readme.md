@@ -11,9 +11,9 @@
    ​	其中根项为HKEY_CURRENT_USER或是HKEY_LOCAL_MACHINE，分别代表仅限于当前用户权限的启动项和整个系统共用的启动项。由于Windows环境下的应用程序普遍对用户权限不加以认真管理，在安装时也经常随意提权，因此大部分的WindowsLogon启动项都位于HKEY_LOCAL_MACHINE下。
 
    ```c
-   ("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\Run");
-   ("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\RunOnce");
-   ("SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\Run");
+   ("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run");
+   ("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\RunOnce");
+   ("SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Run");
    ```
 
    ​	其中
